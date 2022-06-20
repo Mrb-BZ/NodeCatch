@@ -469,24 +469,9 @@ proxy-groups:
   - name: 🇨🇳 国 内 🇨🇳
     type: select
     proxies:
-      - ✈️ 节点选择
-      - ♻️ 自动选择
-      - 🧲 负载均衡
-      - ⚠️ 故障排除
-      - 👍 手动选择
-      - 🇨🇳 中国大陆
-      - 🇭🇰 中国香港
-      - 🇹🇼 中国台湾
-      - 🇯🇵 日本
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - 🇷🇺 俄罗斯
-      - 🇸🇬 新加坡
-      - 🇳🇱 荷兰
-      - 🇩🇪 德国
-      - 🎬 Netfix
-      - 🌎 其他节点
       - DIRECT
+      - 🇨🇳 中国大陆
+      - ✈️ 节点选择
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -512,6 +497,7 @@ proxy-groups:
       - 🇩🇪 德国
       - 🎬 Netfix
       - 🌎 其他节点
+      - DIRECT
 rules:
  - DOMAIN-KEYWORD,admarvel,❌ 广告
  - DOMAIN-KEYWORD,admaster,❌ 广告
